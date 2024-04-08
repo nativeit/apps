@@ -37,6 +37,9 @@ jobs:
           destination: ./public/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          artifact-name: github-pages
+          path: public/_site
 
   # Deployment job
   deploy:
