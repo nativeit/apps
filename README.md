@@ -1,2 +1,2 @@
 # ntv.dev
-Custom Caprover app repositoryr
+Custom app repository for private app server
